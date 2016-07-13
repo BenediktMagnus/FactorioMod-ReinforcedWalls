@@ -1,4 +1,6 @@
- {
+data:extend({
+
+{
     type = "wall",
     name = "reinforced-wall",
     icon = "__base__/graphics/icons/stone-wall.png",
@@ -378,4 +380,5 @@
     circuit_wire_max_distance = 7.5,
     circuit_connector_sprites = get_circuit_connector_sprites({0, -0.59375}, nil, 6),
     default_output_signal = "signal-G"
-  },
+  }
+  })
