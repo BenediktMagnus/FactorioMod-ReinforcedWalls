@@ -3,7 +3,8 @@ data:extend({
 {
     type = "technology",
     name = "reinforced-walls",
-    icon = "__base__/graphics/technology/stone-walls.png",
+    icon = "__Reinforced-Walls__/graphics/icons/tech-tree.png",
+	icon_size = 128,
 	prerequisites = {"stone-walls", "concrete", "military-2"},
     effects =
     {
@@ -14,7 +15,7 @@ data:extend({
     },
     unit =
     {
-      count = 100,
+      count = 50,
       ingredients = 
 	  {
 	      {"science-pack-1", 1},

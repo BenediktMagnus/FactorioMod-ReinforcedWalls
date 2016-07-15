@@ -3,7 +3,7 @@ data:extend({
 {
     type = "wall",
     name = "reinforced-wall",
-    icon = "__base__/graphics/icons/stone-wall.png",
+    icon = "__Reinforced-Walls__/graphics/icons/reinforced-wall.png",
     flags = {"placeable-neutral", "player-creation"},
     collision_box = {{-0.31, -0.31}, {0.31, 0.31}},
     selection_box = {{-0.5, -0.5}, {0.5, 0.5}},

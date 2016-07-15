@@ -2,7 +2,7 @@ data:extend({
  {
     type = "item",
     name = "reinforced-wall",
-    icon = "__base__/graphics/icons/stone-wall.png",
+    icon = "__Reinforced-Walls__/graphics/icons/reinforced-wall.png",
     flags = {"goes-to-quickbar"},
     subgroup = "defensive-structure",
     order = "a[reinforced-wall]-a[reinforced-wall]",

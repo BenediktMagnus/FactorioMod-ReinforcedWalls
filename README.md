@@ -1,4 +1,4 @@
-Reinforced Walls 0.1.2 by Michael Cowgill (ChurchOrganist)
+Reinforced Walls 0.1.3 by Michael Cowgill (ChurchOrganist)
 
 This is my first attempt at a [Factorio](http://www.factorio.com/) mod. It adds an upgraded wall with double hitpoints to your base defence system.
 
