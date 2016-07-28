@@ -384,7 +384,7 @@ data:extend({
   {
     type = "wall",
     name = "acid-resist-wall",
-    icon = "__Reinforced-Walls__/graphics/icons/reinforced-wall.png",
+    icon = "__Reinforced-Walls__/graphics/icons/acid-resist-wall.png",
     flags = {"placeable-neutral", "player-creation"},
     collision_box = {{-0.31, -0.31}, {0.31, 0.31}},
     selection_box = {{-0.5, -0.5}, {0.5, 0.5}},

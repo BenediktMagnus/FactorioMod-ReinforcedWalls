@@ -1,4 +1,6 @@
 Reinforced-Walls Changes Log
+28th July 2016     0.2.2      Added icons for acid resist wall
+28th July 2016     0.2.1      Fixed icon order in inventory/crafting
 27th July 2016     0.2.0      Added acid resistant walls
 16th July 2016     0.1.4      Fixed icon order in Research, Crafting and Inventory dialogues
 15th July 2016     0.1.3      Added tech tree and inventory icons

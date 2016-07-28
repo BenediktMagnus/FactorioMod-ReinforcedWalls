@@ -29,7 +29,7 @@ data:extend({
   {
     type = "technology",
     name = "acid-resist-walls",
-    icon = "__Reinforced-Walls__/graphics/icons/tech-tree.png",
+    icon = "__Reinforced-Walls__/graphics/icons/tech-tree1.png",
 	icon_size = 128,
 	prerequisites = {"reinforced-walls", "plastics", "military-3"},
     effects =
@@ -41,7 +41,7 @@ data:extend({
     },
     unit =
     {
-      count = 50,
+      count = 100,
       ingredients = 
 	  {
 	      {"science-pack-1", 1},

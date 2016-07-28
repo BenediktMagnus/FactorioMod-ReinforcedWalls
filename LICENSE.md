@@ -1,4 +1,4 @@
-Reinforced Walls 0.2.0 is released under the MIT license.
+Reinforced Walls 0.2.2 is released under the MIT license.
 
 Informally, this means you can 
 do basically whatever with it you like, as long as you leave this file intact.
@@ -9,7 +9,7 @@ The full legalese is below.
 
 
 
-Reinforced Walls 0.2.0 is Copyright © July 2016 Michael Cowgill (Church Organist).
+Reinforced Walls 0.2.2 is Copyright © July 2016 Michael Cowgill (Church Organist).
 
 
 
