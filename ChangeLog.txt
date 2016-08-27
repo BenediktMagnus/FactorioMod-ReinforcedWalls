@@ -1,4 +1,5 @@
 Reinforced-Walls Changes Log
+27th Aug  2016     0.3.0      Update for Factorio 0.14.x compatibility
 1st  Aug  2016     0.2.3      Fixed bounding box problem when using double thickness walls.
 28th July 2016     0.2.2      Added icons for acid resist wall
 28th July 2016     0.2.1      Fixed icon order in inventory/crafting
