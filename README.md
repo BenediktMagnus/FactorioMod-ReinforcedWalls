@@ -1,4 +1,4 @@
-Reinforced Walls 0.3.0 by Michael Cowgill (ChurchOrganist)
+Reinforced Walls 0.14.0 by Michael Cowgill (ChurchOrganist)
 
 This is my first attempt at a [Factorio](http://www.factorio.com/) mod. 
 

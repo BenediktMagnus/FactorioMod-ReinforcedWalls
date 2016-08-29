@@ -18,6 +18,16 @@ data:extend({
     order = "a[stone-wall]-c[acid-resist-wall]",
     place_result = "acid-resist-wall",
     stack_size = 100
+  },
+  {
+     type = "item",
+    name = "damage-reflect-wall",
+    icon = "__Reinforced-Walls__/graphics/icons/damage-reflect-wall.png",
+    flags = {"goes-to-quickbar"},
+    subgroup = "defensive-structure",
+    order = "a[stone-wall]-c[damage-reflect-wall]",
+    place_result = "damage-reflect-wall",
+    stack_size = 100
   }
   
 })
