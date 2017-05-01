@@ -379,7 +379,7 @@ data:extend({
     },
     circuit_wire_max_distance = 7.5,
     circuit_connector_sprites = get_circuit_connector_sprites({0, -0.59375}, nil, 6),
-    default_output_signal = "signal-G"
+    default_output_signal = data.is_demo and {type = "virtual", name = "signal-green"} or {type = "virtual", name = "signal-G"}
   },
   {
     type = "wall",
@@ -765,7 +765,7 @@ data:extend({
     },
     circuit_wire_max_distance = 7.5,
     circuit_connector_sprites = get_circuit_connector_sprites({0, -0.59375}, nil, 6),
-    default_output_signal = "signal-G"
+    default_output_signal = data.is_demo and {type = "virtual", name = "signal-green"} or {type = "virtual", name = "signal-G"}
   },
   {
     type = "wall",
@@ -1151,6 +1151,6 @@ data:extend({
     },
     circuit_wire_max_distance = 7.5,
     circuit_connector_sprites = get_circuit_connector_sprites({0, -0.59375}, nil, 6),
-    default_output_signal = "signal-G"
+    default_output_signal = data.is_demo and {type = "virtual", name = "signal-green"} or {type = "virtual", name = "signal-G"}
   }
   })

@@ -47,7 +47,7 @@ data:extend({
 	      {"science-pack-1", 1},
 		  {"science-pack-2", 1},
 		  {"science-pack-3", 1}, 
-		  {"alien-science-pack", 1}
+		  {"military-science-pack", 1}
 	  },
       time = 30
     },
@@ -74,7 +74,7 @@ data:extend({
 	      {"science-pack-1", 1},
 		  {"science-pack-2", 1},
 		  {"science-pack-3", 1}, 
-		  {"alien-science-pack", 1}
+		  {"military-science-pack", 1}
 	  },
       time = 30
     },

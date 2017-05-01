@@ -1,17 +1,14 @@
-Reinforced Walls 0.14.9 is released under the MIT license.
+Reinforced Walls 0.15.1 is released under the MIT license.
 
 Informally, this means you can 
 do basically whatever with it you like, as long as you leave this file intact.
 
-
 The full legalese is below.
 
+Reinforced Walls 0.15.1 is Copyright © 2016-2017 Michael Cowgill (Church Organist) and others.
 
-
-
-Reinforced Walls 0.14.9 is Copyright © 2016 Michael Cowgill (Church Organist).
-
-
+Acknowledgements
+Thank you to ST-DDT who provided the German locale translation
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
@@ -22,8 +19,6 @@ of the Software, and to permit persons to whom the Software is furnished to do
 
 The above copyright notice and this permission notice shall be included in all
  copies or substantial portions of the Software. 
-
-
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
