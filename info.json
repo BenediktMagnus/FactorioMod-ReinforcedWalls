@@ -1,11 +1,11 @@
 {
   "name": "Reinforced-Walls",
-  "version": "0.15.1",
+  "version": "0.15.2",
   "factorio_version": "0.15",
   "title": "Reinforced Walls",
   "author": "Michael Cowgill (ChurchOrganist)",
   "contact": "jmcowgill@gmail.com",
   "homepage": "https://github.com/ChurchOrganist/Factorio-Reinforced-Walls",
   "description": "Gives various wall upgrades after the appropriate research.",
-  "dependencies": ["base >= 0.13.0"]
+  "dependencies": ["base >= 0.15.0"]
 }

@@ -1,4 +1,8 @@
 Reinforced-Walls Changes Log
+11th Nov  2017     0.15.2     Add traditional Chinese locale
+ 1st May  2017     0.15.1     Factorio 0.15.x compatibility changes
+ 9th Sep  2016     0.14.10    Add German Locale
+ 9th Sep  2016     0.13.10    Add German Locale
 29th Aug  2016     0.14.09    Version change to reflect Factorio versioning and add icons.
 29th Aug  2016     0.13.09    Version change for Factorio stable version
 28th Aug  2016     0.3.8      Balancing of damage.

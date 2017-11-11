@@ -1,4 +1,4 @@
-Reinforced Walls 0.15.1 by Michael Cowgill (ChurchOrganist)
+Reinforced Walls 0.15.2 by Michael Cowgill (ChurchOrganist)
 
 This is my first attempt at a [Factorio](http://www.factorio.com/) mod. 
 
@@ -15,5 +15,6 @@ Currently there are 3 types which you can research.
 It is licensed under the MIT license, available in this package in the file  LICENSE.md.
 
 Thank you to ST-DDT for the German locale translation.
+And Jack Chen for the traditional Chinese locale translation.
 
 For more information on this licence please visit: http://opensource.org/licenses/mit-license.html
