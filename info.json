@@ -1,11 +1,12 @@
 {
   "name": "Reinforced-Walls",
-  "version": "0.15.2",
-  "factorio_version": "0.15",
+  "version": "0.16.0",
+  "factorio_version": "0.16",
   "title": "Reinforced Walls",
-  "author": "Michael Cowgill (ChurchOrganist)",
-  "contact": "jmcowgill@gmail.com",
-  "homepage": "https://github.com/ChurchOrganist/Factorio-Reinforced-Walls",
+  "author": "lovely_santa",
+  "homepage": "https://mods.factorio.com/mod/Reinforced-Walls",
   "description": "Gives various wall upgrades after the appropriate research.",
-  "dependencies": ["base >= 0.15.0"]
+  "dependencies": [
+    "base >= 0.16.51"
+  ]
 }
