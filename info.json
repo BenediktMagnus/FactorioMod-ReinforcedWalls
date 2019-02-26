@@ -1,9 +1,10 @@
 {
   "name": "Reinforced-Walls",
-  "version": "0.16.0",
+  "version": "0.16.1",
   "factorio_version": "0.16",
   "title": "Reinforced Walls",
   "author": "lovely_santa",
+  "contact": "https://mods.factorio.com/mod/Reinforced-Walls/discussion",
   "homepage": "https://mods.factorio.com/mod/Reinforced-Walls",
   "description": "Gives various wall upgrades after the appropriate research.",
   "dependencies": [
