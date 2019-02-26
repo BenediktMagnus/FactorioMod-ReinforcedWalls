@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.16.1
+Date: 26. 02. 2019
+  Major features:
+    - Added gates to go with the (already existing) walls
+  Changes:
+    - All walls have new colors to distinguish them beter
+---------------------------------------------------------------------------------------------------
 Version: 0.16.0 - 0.16 release
 Date: 6. 7. 2018
   Major features:
