@@ -43,8 +43,8 @@ for _,animationName in pairs{
   damageReflectGate[animationName] = lib.prototypes.sprites.addTintToAnimation(damageReflectGate[animationName], tint)
 end
 for _,spriteName in pairs{
-  "vertical_base"  ,
-  "horizontal_base",
+  "vertical_rail_base"  ,
+  "horizontal_rail_base",
 } do
   damageReflectGate[spriteName] = lib.prototypes.sprites.addTintToSprite(damageReflectGate[spriteName], tint)
 end

@@ -43,8 +43,8 @@ for _,animationName in pairs{
   acidResistGate[animationName] = lib.prototypes.sprites.addTintToAnimation(acidResistGate[animationName], tint)
 end
 for _,spriteName in pairs{
-  "vertical_base"  ,
-  "horizontal_base",
+  "vertical_rail_base"  ,
+  "horizontal_rail_base",
 } do
   acidResistGate[spriteName] = lib.prototypes.sprites.addTintToSprite(acidResistGate[spriteName], tint)
 end

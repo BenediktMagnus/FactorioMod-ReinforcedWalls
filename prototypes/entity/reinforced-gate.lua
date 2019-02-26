@@ -43,8 +43,8 @@ for _,animationName in pairs{
   reinforcedGate[animationName] = lib.prototypes.sprites.addTintToAnimation(reinforcedGate[animationName], tint)
 end
 for _,spriteName in pairs{
-  "vertical_base"  ,
-  "horizontal_base",
+  "vertical_rail_base"  ,
+  "horizontal_rail_base",
 } do
   reinforcedGate[spriteName] = lib.prototypes.sprites.addTintToSprite(reinforcedGate[spriteName], tint)
 end

@@ -28,7 +28,7 @@ reinforcedWall.attack_reaction = resistanceModifier["attack_reaction"]
 local tint = require("prototypes/prototype-settings")[reinforcedWall.name]["wall-tint"]
 for pictureName,picture in pairs(reinforcedWall.pictures) do
   -- https://wiki.factorio.com/Prototype/Wall#pictures
-  if pictureName == "water_connection_patch" then
+  if pictureName == "water_connection_patch" or pictureName == "gate_connection_patch" then
     reinforcedWall.pictures[pictureName] = lib.prototypes.sprites.addTintToSprite4Way(picture, tint)
   else
     reinforcedWall.pictures[pictureName] = lib.prototypes.sprites.addTintToSpriteVariation(picture, tint)

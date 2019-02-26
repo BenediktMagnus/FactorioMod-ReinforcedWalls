@@ -54,24 +54,29 @@ function lib.prototypes.sprites.addTintToSprite4Way(sprite4Way, tintToAdd)
   -- https://wiki.factorio.com/Types/Sprite4Way
 
   if sprite4Way.sheet then
+    log("adding to sheet")
     -- https://wiki.factorio.com/Types/Sprite4Way#sheet
     sprite4Way.sheet = lib.prototypes.sprites.addTintToSprite(sprite4Way.sheet, tintToAdd)
 
   elseif sprite4Way.sheets then
+    log("adding to sheets")
     -- https://wiki.factorio.com/Types/Sprite4Way#sheets
     for sheetIndex,sheet in pairs(sprite4Way.sheets) do
       sprite4Way.sheets[sheetIndex] = lib.prototypes.sprites.addTintToSprite(sheet, tintToAdd)
     end
 
   elseif not sprite4Way.north then
+    log("adding to not north")
     -- https://wiki.factorio.com/Types/Sprite4Way#north
     sprite4Way = lib.prototypes.sprites.addTintToSprite(sprite4Way, tintToAdd)
 
   else
+    log("adding to north")
     for direction,sprite in pairs(sprite4Way) do
       sprite4Way[direction] = lib.prototypes.sprites.addTintToSprite(sprite, tintToAdd)
     end
   end
 
+  log(serpent.block(sprite4Way))
   return sprite4Way
 end

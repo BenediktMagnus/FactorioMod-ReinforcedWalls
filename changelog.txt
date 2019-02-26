@@ -1,6 +1,13 @@
 ---------------------------------------------------------------------------------------------------
-Version: 0.16.1
+Version: 0.17.0 - 0.17 release
 Date: 26. 02. 2019
+  Major features:
+    - Updated to Factorio 0.17
+  Changes:
+    - Reinforced walls now require stone walls as ingredient (since there is no more limit count on assembling ingredients)
+---------------------------------------------------------------------------------------------------
+Version: 0.16.1
+Date: 25. 02. 2019
   Major features:
     - Added gates to go with the (already existing) walls
   Changes:

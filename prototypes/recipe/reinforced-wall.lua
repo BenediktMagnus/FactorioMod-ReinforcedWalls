@@ -9,6 +9,7 @@ data:extend{
     enabled = false,
     ingredients =
     {
+      {"stone-wall", 5},
       {"concrete"  , 5},
       {"iron-stick", 5},
     },
