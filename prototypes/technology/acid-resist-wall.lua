@@ -20,7 +20,7 @@ data:extend{
     },
     unit =
     {
-      count = 100,
+      count = 250,
       ingredients =
       {
         {"automation-science-pack", 1},
@@ -28,7 +28,7 @@ data:extend{
         {"chemical-science-pack", 1},
         {"military-science-pack", 1}
       },
-      time = 30,
+      time = 45,
     },
     order = "a-k-c",
   },

@@ -10,7 +10,7 @@ data:extend{
     --icon = "__Reinforced-Walls__/graphics/icons/tech-tree.png",
     --icon_size = 128,
     icons = LSlib.technology.getIcons("stone-walls", nil, nil, require("prototypes/prototype-settings")["reinforced-wall"]["wall-tint"]),
-    prerequisites = {"stone-walls", "concrete", "military-2"},
+    prerequisites = {"stone-walls", "concrete", "military-science-pack"},
     effects =
     {
       {
@@ -20,14 +20,14 @@ data:extend{
     },
     unit =
     {
-      count = 50,
+      count = 100,
       ingredients =
       {
         {"automation-science-pack", 1},
         {"logistic-science-pack", 1},
-        {"chemical-science-pack", 1},
+        {"military-science-pack", 1},
       },
-      time = 20,
+      time = 30,
     },
     order = "a-k-b",
   },
