@@ -1,4 +1,4 @@
-require "lib/prototypes/sprites"
+require "LSlib.lib"
 
 --------------------------------------------------------------------------------
 -- Reinforced gate                                                            --
@@ -40,18 +40,18 @@ for _,animationName in pairs{
   "vertical_rail_animation_left"   ,
   "vertical_rail_animation_right"  ,
 } do
-  reinforcedGate[animationName] = lib.prototypes.sprites.addTintToAnimation(reinforcedGate[animationName], tint)
+  reinforcedGate[animationName] = LSlib.entity.addTintToAnimation(reinforcedGate[animationName], tint)
 end
 for _,spriteName in pairs{
   "vertical_rail_base"  ,
   "horizontal_rail_base",
 } do
-  reinforcedGate[spriteName] = lib.prototypes.sprites.addTintToSprite(reinforcedGate[spriteName], tint)
+  reinforcedGate[spriteName] = LSlib.entity.addTintToSprite(reinforcedGate[spriteName], tint)
 end
 for _,sprite4WayName in pairs{
   "wall_patch",
 } do
-  reinforcedGate[sprite4WayName] = lib.prototypes.sprites.addTintToSprite4Way(reinforcedGate[sprite4WayName], tint)
+  reinforcedGate[sprite4WayName] = LSlib.entity.addTintToSprite4Way(reinforcedGate[sprite4WayName], tint)
 end
 
 data:extend{reinforcedGate}

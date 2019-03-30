@@ -1,11 +1,11 @@
-require "lib/prototypes/icons"
+require "LSlib.lib"
 
 --------------------------------------------------------------------------------
 -- Stone wall                                                                 --
 --------------------------------------------------------------------------------
-local stoneWall = data.raw["gate"]["gate"]
+local stoneGate = data.raw["gate"]["gate"]
 
 -- make sure it has icons, and not icon/icon_size
-stoneWall.icons     = lib.prototypes.icons.getItemIcons(stoneWall.type, stoneWall.name, 1, {0,0}, {})
-stoneWall.icon      = nil
-stoneWall.icon_size = nil
+stoneGate.icons     = LSlib.item.getIcons(stoneGate.type, stoneGate.name)
+stoneGate.icon      = nil
+stoneGate.icon_size = nil

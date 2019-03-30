@@ -9,7 +9,7 @@ data:extend{
     enabled = false,
     ingredients =
     {
-      {"gate"      , 5},
+      {"gate"      , 2},
       {"concrete"  , 10},
       {"iron-stick", 10},
     },

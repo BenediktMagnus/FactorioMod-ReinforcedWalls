@@ -1,4 +1,4 @@
-require "lib/prototypes/sprites"
+require "LSlib.lib"
 
 --------------------------------------------------------------------------------
 -- Damage reflect gate                                                        --
@@ -40,18 +40,18 @@ for _,animationName in pairs{
   "vertical_rail_animation_left"   ,
   "vertical_rail_animation_right"  ,
 } do
-  damageReflectGate[animationName] = lib.prototypes.sprites.addTintToAnimation(damageReflectGate[animationName], tint)
+  damageReflectGate[animationName] = LSlib.entity.addTintToAnimation(damageReflectGate[animationName], tint)
 end
 for _,spriteName in pairs{
   "vertical_rail_base"  ,
   "horizontal_rail_base",
 } do
-  damageReflectGate[spriteName] = lib.prototypes.sprites.addTintToSprite(damageReflectGate[spriteName], tint)
+  damageReflectGate[spriteName] = LSlib.entity.addTintToSprite(damageReflectGate[spriteName], tint)
 end
 for _,sprite4WayName in pairs{
   "wall_patch",
 } do
-  damageReflectGate[sprite4WayName] = lib.prototypes.sprites.addTintToSprite4Way(damageReflectGate[sprite4WayName], tint)
+  damageReflectGate[sprite4WayName] = LSlib.entity.addTintToSprite4Way(damageReflectGate[sprite4WayName], tint)
 end
 
 data:extend{damageReflectGate}

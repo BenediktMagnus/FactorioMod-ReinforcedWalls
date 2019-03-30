@@ -1,3 +1,5 @@
+require "LSlib.lib"
+
 --------------------------------------------------------------------------------
 -- Damage reflect wall                                                        --
 --------------------------------------------------------------------------------
@@ -7,7 +9,7 @@ data:extend{
     name = "damage-reflect-walls",
     --icon = "__Reinforced-Walls__/graphics/icons/tech-tree2.png",
     --icon_size = 128,
-    icons = lib.prototypes.icons.getItemIcons("technology", "stone-walls", 1, {0,0}, require("prototypes/prototype-settings")["damage-reflect-wall"]["wall-tint"]),
+    icons = LSlib.technology.getIcons("stone-walls", nil, nil, require("prototypes/prototype-settings")["damage-reflect-wall"]["wall-tint"]),
     prerequisites = {"acid-resist-walls", "combat-robotics"},
     effects =
     {

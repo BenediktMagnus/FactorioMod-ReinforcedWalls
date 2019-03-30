@@ -1,4 +1,4 @@
-require "lib/prototypes/icons"
+require "LSlib.lib"
 
 --------------------------------------------------------------------------------
 -- Damage reflect wall                                                        --
@@ -8,7 +8,7 @@ damageReflectWall.name = "damage-reflect-wall"
 
 damageReflectWall.icon      = nil
 damageReflectWall.icon_size = nil
-damageReflectWall.icons     = lib.prototypes.icons.getItemIcons("item", "stone-wall", 1, {0,0}, require("prototypes/prototype-settings")[damageReflectWall.name]["wall-tint"])
+damageReflectWall.icons     = LSlib.item.getIcons("item", "stone-wall", nil, nil, require("prototypes/prototype-settings")[damageReflectWall.name]["wall-tint"])
 
 damageReflectWall.order = damageReflectWall.order .. "-b[Reinforced-Walls]-c[" .. damageReflectWall.name .. "]"
 

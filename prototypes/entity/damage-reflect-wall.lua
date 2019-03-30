@@ -1,4 +1,4 @@
-require "lib/prototypes/sprites"
+require "LSlib.lib"
 
 --------------------------------------------------------------------------------
 -- Damage reflect wall                                                        --
@@ -29,9 +29,9 @@ local tint = require("prototypes/prototype-settings")[damageReflectWall.name]["w
 for pictureName,picture in pairs(damageReflectWall.pictures) do
   -- https://wiki.factorio.com/Prototype/Wall#pictures
   if pictureName == "water_connection_patch" or pictureName == "gate_connection_patch" then
-    damageReflectWall.pictures[pictureName] = lib.prototypes.sprites.addTintToSprite4Way(picture, tint)
+    damageReflectWall.pictures[pictureName] = LSlib.entity.addTintToSprite4Way(picture, tint)
   else
-    damageReflectWall.pictures[pictureName] = lib.prototypes.sprites.addTintToSpriteVariation(picture, tint)
+    damageReflectWall.pictures[pictureName] = LSlib.entity.addTintToSpriteVariation(picture, tint)
   end
 end
 

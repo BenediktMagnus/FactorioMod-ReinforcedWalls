@@ -1,3 +1,5 @@
+require "LSlib.lib"
+
 --------------------------------------------------------------------------------
 -- Acid resist wall                                                           --
 --------------------------------------------------------------------------------
@@ -7,7 +9,7 @@ data:extend{
     name = "acid-resist-walls",
     --icon = "__Reinforced-Walls__/graphics/icons/tech-tree1.png",
     --icon_size = 128,
-    icons = lib.prototypes.icons.getItemIcons("technology", "stone-walls", 1, {0,0}, require("prototypes/prototype-settings")["acid-resist-wall"]["wall-tint"]),
+    icons = LSlib.technology.getIcons("stone-walls", nil, nil, require("prototypes/prototype-settings")["acid-resist-wall"]["wall-tint"]),
     prerequisites = {"reinforced-walls", "plastics", "military-3"},
     effects =
     {

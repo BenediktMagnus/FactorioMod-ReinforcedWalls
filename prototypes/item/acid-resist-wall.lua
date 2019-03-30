@@ -1,4 +1,4 @@
-require "lib/prototypes/icons"
+require "LSlib.lib"
 
 --------------------------------------------------------------------------------
 -- Acid resist wall                                                           --
@@ -8,7 +8,7 @@ acidResistWall.name = "acid-resist-wall"
 
 acidResistWall.icon      = nil
 acidResistWall.icon_size = nil
-acidResistWall.icons     = lib.prototypes.icons.getItemIcons("item", "stone-wall", 1, {0,0}, require("prototypes/prototype-settings")[acidResistWall.name]["wall-tint"])
+acidResistWall.icons     = LSlib.item.getIcons("item", "stone-wall", nil, nil, require("prototypes/prototype-settings")[acidResistWall.name]["wall-tint"])
 
 acidResistWall.order = acidResistWall.order .. "-b[Reinforced-Walls]-b[" .. acidResistWall.name .. "]"
 

@@ -1,4 +1,4 @@
-require "lib/prototypes/icons"
+require "LSlib.lib"
 
 --------------------------------------------------------------------------------
 -- Reinforced gate                                                            --
@@ -6,9 +6,9 @@ require "lib/prototypes/icons"
 local reinforcedGate = util.table.deepcopy(data.raw["item"]["gate"])
 reinforcedGate.name = "reinforced-gate"
 
---reinforcedGate.icon      = "__Reinforced-Walls__/graphics/icons/reinforced-wall.png"
---reinforcedGate.icon_size = 32
-reinforcedGate.icons     = lib.prototypes.icons.getItemIcons("item", "gate", 1, {0,0}, require("prototypes/prototype-settings")[reinforcedGate.name]["wall-tint"])
+reinforcedGate.icon      = nil
+reinforcedGate.icon_size = nil
+reinforcedGate.icons     = LSlib.item.getIcons("item", "gate", 1, {0,0}, require("prototypes/prototype-settings")[reinforcedGate.name]["wall-tint"])
 
 reinforcedGate.order = reinforcedGate.order .. "-b[Reinforced-Walls]-a[" .. reinforcedGate.name .. "]"
 

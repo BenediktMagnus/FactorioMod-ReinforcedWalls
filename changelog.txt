@@ -1,4 +1,14 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.17.1
+Date: 30. 03. 2019
+  Changes:
+    - Reinforced walls rebalancing: only require 2 stone walls (previously required 5)
+  Fixes:
+    - Fixed damaged/destroyed message was showing black walls instead of the correct color
+  Modding:
+    - Now utilizes LSlib instead of own custom functions
+    - Added build script for easy coding
+---------------------------------------------------------------------------------------------------
 Version: 0.17.0 - 0.17 release
 Date: 26. 02. 2019
   Major features:
@@ -43,7 +53,7 @@ Date: 29. 8. 2016
 ---------------------------------------------------------------------------------------------------
 Version: 0.3.8
 Date: 28. 8. 2016
-  Major features:
+  Changes:
     - Balancing of damage reflecting
 ---------------------------------------------------------------------------------------------------
 Version: 0.3.1

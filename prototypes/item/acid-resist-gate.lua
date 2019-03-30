@@ -1,4 +1,4 @@
-require "lib/prototypes/icons"
+require "LSlib.lib"
 
 --------------------------------------------------------------------------------
 -- Acid resist gate                                                           --
@@ -6,9 +6,9 @@ require "lib/prototypes/icons"
 local acidResistGate = util.table.deepcopy(data.raw["item"]["gate"])
 acidResistGate.name = "acid-resist-gate"
 
---acidResistGate.icon      = "__Reinforced-Walls__/graphics/icons/reinforced-wall.png"
---acidResistGate.icon_size = 32
-acidResistGate.icons     = lib.prototypes.icons.getItemIcons("item", "gate", 1, {0,0}, require("prototypes/prototype-settings")[acidResistGate.name]["wall-tint"])
+acidResistGate.icon      = nil
+acidResistGate.icon_size = nil
+acidResistGate.icons     = LSlib.item.getIcons("item", "gate", nil, nil, require("prototypes/prototype-settings")[acidResistGate.name]["wall-tint"])
 
 acidResistGate.order = acidResistGate.order .. "-b[Reinforced-Walls]-b[" .. acidResistGate.name .. "]"
 

@@ -1,4 +1,4 @@
-require "lib/prototypes/icons"
+require "LSlib.lib"
 
 --------------------------------------------------------------------------------
 -- Reinforced wall                                                            --
@@ -9,7 +9,7 @@ data:extend{
     name = "reinforced-gates",
     --icon = "__Reinforced-Walls__/graphics/icons/tech-tree.png",
     --icon_size = 128,
-    icons = lib.prototypes.icons.getItemIcons("technology", "gates", 1, {0,0}, require("prototypes/prototype-settings")["reinforced-gate"]["wall-tint"]),
+    icons = LSlib.technology.getIcons("gates", nil, nil, require("prototypes/prototype-settings")["reinforced-gate"]["wall-tint"]),
     prerequisites = {"gates", "reinforced-walls"},
     effects =
     {

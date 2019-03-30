@@ -1,4 +1,4 @@
-require "lib/prototypes/sprites"
+require "LSlib.lib"
 
 --------------------------------------------------------------------------------
 -- Acid resist gate                                                           --
@@ -40,18 +40,18 @@ for _,animationName in pairs{
   "vertical_rail_animation_left"   ,
   "vertical_rail_animation_right"  ,
 } do
-  acidResistGate[animationName] = lib.prototypes.sprites.addTintToAnimation(acidResistGate[animationName], tint)
+  acidResistGate[animationName] = LSlib.entity.addTintToAnimation(acidResistGate[animationName], tint)
 end
 for _,spriteName in pairs{
   "vertical_rail_base"  ,
   "horizontal_rail_base",
 } do
-  acidResistGate[spriteName] = lib.prototypes.sprites.addTintToSprite(acidResistGate[spriteName], tint)
+  acidResistGate[spriteName] = LSlib.entity.addTintToSprite(acidResistGate[spriteName], tint)
 end
 for _,sprite4WayName in pairs{
   "wall_patch",
 } do
-  acidResistGate[sprite4WayName] = lib.prototypes.sprites.addTintToSprite4Way(acidResistGate[sprite4WayName], tint)
+  acidResistGate[sprite4WayName] = LSlib.entity.addTintToSprite4Way(acidResistGate[sprite4WayName], tint)
 end
 
 data:extend{acidResistGate}

@@ -1,4 +1,4 @@
-require "lib/prototypes/sprites"
+require "LSlib.lib"
 
 --------------------------------------------------------------------------------
 -- Acid resist wall                                                           --
@@ -29,9 +29,9 @@ local tint = require("prototypes/prototype-settings")[acidResistWall.name]["wall
 for pictureName,picture in pairs(acidResistWall.pictures) do
   -- https://wiki.factorio.com/Prototype/Wall#pictures
   if pictureName == "water_connection_patch" or pictureName == "gate_connection_patch" then
-    acidResistWall.pictures[pictureName] = lib.prototypes.sprites.addTintToSprite4Way(picture, tint)
+    acidResistWall.pictures[pictureName] = LSlib.entity.addTintToSprite4Way(picture, tint)
   else
-    acidResistWall.pictures[pictureName] = lib.prototypes.sprites.addTintToSpriteVariation(picture, tint)
+    acidResistWall.pictures[pictureName] = LSlib.entity.addTintToSpriteVariation(picture, tint)
   end
 end
 
