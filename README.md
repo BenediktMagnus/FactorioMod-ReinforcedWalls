@@ -22,8 +22,5 @@ Thanks to Jack Chen for the traditional Chinese locale translation.
 *This mod is licensed under the MIT license, available in this package in the file LICENSE.md.*
 
 # Changelog
-### Future
-+ Continue rework of the mod
-+ New icons
 ### Latest release
 + See ingame changelog or find it [here on github](https://github.com/LovelySanta/FactorioMod-ReinforcedWalls/blob/master/changelog.txt).
