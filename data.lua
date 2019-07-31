@@ -1,3 +1,4 @@
+require("__LSlib__/LSlib")
 
 for _,tierType in pairs{
   "stone"         , -- vanilla tier MUST be first

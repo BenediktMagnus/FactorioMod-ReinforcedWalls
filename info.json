@@ -1,6 +1,6 @@
 {
   "name": "Reinforced-Walls",
-  "version": "0.17.1",
+  "version": "0.17.2",
   "factorio_version": "0.17",
   "title": "Reinforced Walls",
   "author": "lovely_santa",
@@ -8,6 +8,7 @@
   "homepage": "https://mods.factorio.com/mod/Reinforced-Walls",
   "description": "Gives various wall upgrades after the appropriate research.",
   "dependencies": [
-    "base >= 0.17.0"
+    "base >= 0.17.0",
+    "LSlib >= 2019.7.31"
   ]
 }

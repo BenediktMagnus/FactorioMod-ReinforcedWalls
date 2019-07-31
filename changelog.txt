@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.17.2
+Date: 31. 07. 2019
+  Modding:
+    - For mod compatibility giving errors, converted LSlib to be a seperate mod to prevent future issues
+---------------------------------------------------------------------------------------------------
 Version: 0.17.1
 Date: 30. 03. 2019
   Changes:
